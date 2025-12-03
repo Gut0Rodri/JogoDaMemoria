@@ -8,19 +8,12 @@ Este projeto foi feito utilizando apenas recursos básicos da linguagem, sendo i
 ## 📌 Funcionalidades
 
 - Geração totalmente aleatória dos pares no tabuleiro
-
 - Tabuleiro mostrado ao jogador usando caracteres ASCII
-
 - Validação de coordenadas digitadas pelo usuário
-
 - Temporizador ao errar (para “memorizar” antes das cartas esconderem novamente)
-
 - Contador de pontuação
-
 - Uso de Sleep(), cls e UTF-8 para melhor experiência no Windows
-
 - Código limpo, modularizado e cheio de comentários
-
 - Fácil de expandir para qualquer tamanho de tabuleiro
 
 ## 🖼️ Demonstração do Jogo
@@ -67,7 +60,6 @@ Você tem 2 segundos para memorizar o tabuleiro!
 ### ✔ Requisitos
 
 - Compilador C++ (GCC, MinGW, Clang, MSVC etc.)
-
 - Windows (recomendado por causa do Sleep() e cls)
 
 ### ✔ Compilando com g++
@@ -86,30 +78,20 @@ g++ main.cpp -o jogo
 
 - O programa cria dois tabuleiros:
     - Tabuleiro Gabarito → onde ficam as letras reais
-
     - Tabuleiro Secundário → o que o jogador vê (*)
-
 - Cada par de letras (A, B, C…) é distribuído aleatoriamente
-
 - O jogador revela duas cartas por vez:
     - ✔ Se forem iguais → ponto + permanecem viradas
-
     - ✘ Se forem diferentes → tempo de memorização + escondidas novamente
-
 - O jogo termina quando todos os pares são encontrados
 
 ## 👨‍💻 Tecnologias Utilizadas
 
 - C++ (padrão básico)
-
 - stdlib.h — números aleatórios
-
 - time.h — semente do rand
-
 - windows.h — comandos de pausa e controle do console
-
 - locale.h — acentuação UTF-8
-
 - iomanip — formatação do tabuleiro
 
 ## 📜 Licença
