@@ -31,7 +31,33 @@ Pontuação: 0
   0  *   *
   1  *   *
 
-Selecione a primeira carta, digite a linha e coluna:
+Selecione a primeira carta, digite a linha e coluna: 0 1
+```
+
+```markdown
+***************
+JOGO DA MEMÓRIA
+***************
+
+Pontuação: 0
+
+     0   1
+  0  *   A
+  1  *   *
+
+Selecione a segunda carta, digite a linha e coluna: 1 0
+```
+
+```markdown
+***************
+JOGO DA MEMÓRIA
+***************
+
+Pontuação: 1
+
+     0   1
+  0  *   A
+  1  A   *
 ```
 
 ### Ao encontrar um par:
